@@ -1,0 +1,20 @@
+{
+  "name": "@sellis/app-root",
+  "version": "1.0.0",
+  "author": "Scott Ellis",
+  "description": "Base application root widget that incorporates routes and theme",
+  "main": "dist/app-root.es.js",
+  "module": "dist/app-root.es.js",
+  "scripts": {
+    "build": "vite build",
+    "build:watch": "vite build --watch",
+    "yalc:push": "yalc push",
+    "yalc:push:watch": "watch 'yarn yalc:push' ./dist",
+    "lint": "eslint ./src",
+    "tsc": "tsc"
+  },
+  "types": "./src/app-root.d.ts",
+  "dependencies": {
+    "@sellis/application-state": "*"
+  }
+}

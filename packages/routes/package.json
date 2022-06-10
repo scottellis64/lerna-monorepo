@@ -1,0 +1,21 @@
+{
+  "name": "@sellis/routes",
+  "version": "1.0.0",
+  "author": "Scott Ellis",
+  "description": "Routes for the responsive application",
+  "main": "dist/routes.es.js",
+  "module": "dist/routes.es.js",
+  "scripts": {
+    "build": "vite build",
+    "build:watch": "vite build --watch",
+    "yalc:push": "yalc push",
+    "yalc:push:watch": "watch 'yarn yalc:push' ./dist",
+    "lint": "eslint ./src",
+    "tsc": "tsc"
+  },
+  "types": "./src/routes.d.ts",
+  "dependencies": {
+    "@sellis/feed": "*",
+    "@sellis/coming-soon": "*"
+  }
+}

@@ -1,0 +1,16 @@
+node_modules
+.docker/verdaccio/storage
+.docker/verdaccio/config/storage
+.docker/verdaccio/config/conf
+.docker/verdaccio/config/htpasswd
+package-lock.json
+packages/*/dist
+packages/*/package-lock.json
+lerna-debug.log
+.DS_STORE
+.idea
+
+.npmrc
+.env
+
+yarn-error.log

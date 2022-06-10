@@ -1,0 +1,21 @@
+{
+  "name": "@sellis/latest-conversations",
+  "version": "1.0.0",
+  "author": "Scott Ellis",
+  "description": "Widget to display the latest conversations with friends",
+  "main": "dist/latest-conversations.es.js",
+  "module": "dist/latest-conversations.es.js",
+  "scripts": {
+    "build": "vite build",
+    "build:watch": "vite build --watch",
+    "yalc:push": "yalc push",
+    "yalc:push:watch": "watch 'yarn yalc:push' ./dist",
+    "lint": "eslint ./src",
+    "tsc": "tsc"
+  },
+  "types": "./src/latest-conversations.d.ts",
+  "dependencies": {
+    "@sellis/app-root": "*",
+    "@sellis/application-state": "*"
+  }
+}

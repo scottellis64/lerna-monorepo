@@ -1,0 +1,17 @@
+{
+  "name": "@sellis/application-state",
+  "version": "1.0.0",
+  "author": "Scott Ellis",
+  "description": "Responsive application state",
+  "main": "dist/application-state.es.js",
+  "module": "dist/application-state.es.js",
+  "scripts": {
+    "build": "vite build",
+    "build:watch": "vite build --watch",
+    "yalc:push": "yalc push",
+    "yalc:push:watch": "watch 'yarn yalc:push' ./dist",
+    "lint": "eslint ./src",
+    "tsc": "tsc"
+  },
+  "types": "./src/application-state.d.ts"
+}

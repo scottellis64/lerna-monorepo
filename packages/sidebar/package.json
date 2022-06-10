@@ -1,0 +1,21 @@
+{
+  "name": "@sellis/sidebar",
+  "version": "1.0.0",
+  "author": "Scott Ellis",
+  "description": "Sidebar widget",
+  "main": "dist/sidebar.es.js",
+  "module": "dist/sidebar.es.js",
+  "scripts": {
+    "build": "vite build",
+    "build:watch": "vite build --watch",
+    "yalc:push": "yalc push",
+    "yalc:push:watch": "watch 'yarn yalc:push' ./dist",
+    "lint": "eslint ./src",
+    "tsc": "tsc"
+  },
+  "types": "./src/sidebar.d.ts",
+  "dependencies": {
+    "@sellis/hooks": "*",
+    "@sellis/routes": "*"
+  }
+}
