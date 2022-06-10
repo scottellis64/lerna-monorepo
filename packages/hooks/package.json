@@ -1,6 +1,6 @@
 {
   "name": "@sellis/hooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Scott Ellis",
   "description": "Common react hooks",
   "main": "dist/hooks.es.js",

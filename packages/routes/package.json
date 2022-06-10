@@ -1,6 +1,6 @@
 {
   "name": "@sellis/routes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Scott Ellis",
   "description": "Routes for the responsive application",
   "main": "dist/routes.es.js",
@@ -15,7 +15,7 @@
   },
   "types": "./src/routes.d.ts",
   "dependencies": {
-    "@sellis/feed": "*",
-    "@sellis/coming-soon": "*"
+    "@sellis/coming-soon": "^1.0.1",
+    "@sellis/feed": "^1.0.1"
   }
 }

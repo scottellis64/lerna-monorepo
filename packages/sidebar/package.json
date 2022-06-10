@@ -1,6 +1,6 @@
 {
   "name": "@sellis/sidebar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Scott Ellis",
   "description": "Sidebar widget",
   "main": "dist/sidebar.es.js",
@@ -15,7 +15,7 @@
   },
   "types": "./src/sidebar.d.ts",
   "dependencies": {
-    "@sellis/hooks": "*",
-    "@sellis/routes": "*"
+    "@sellis/hooks": "^1.0.1",
+    "@sellis/routes": "^1.0.1"
   }
 }

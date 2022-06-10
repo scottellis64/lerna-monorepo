@@ -1,6 +1,6 @@
 {
   "name": "@sellis/post",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Scott Ellis",
   "description": "Widget representing a post to the application feed",
   "main": "dist/post.es.js",
@@ -15,7 +15,7 @@
   },
   "types": "./src/post.d.ts",
   "dependencies": {
-    "@sellis/app-root": "*",
-    "@sellis/application-state": "*"
+    "@sellis/app-root": "^1.0.1",
+    "@sellis/application-state": "^1.0.1"
   }
 }

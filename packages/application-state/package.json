@@ -1,6 +1,6 @@
 {
   "name": "@sellis/application-state",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Scott Ellis",
   "description": "Responsive application state",
   "main": "dist/application-state.es.js",

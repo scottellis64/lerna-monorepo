@@ -1,6 +1,6 @@
 {
   "name": "@sellis/rightbar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Scott Ellis",
   "description": "Sidebar widget right-aligned within the application",
   "main": "dist/rightbar.es.js",
@@ -15,10 +15,10 @@
   },
   "types": "./src/rightbar.d.ts",
   "dependencies": {
-    "@sellis/app-root": "*",
-    "@sellis/hooks": "*",
-    "@sellis/latest-conversations": "*",
-    "@sellis/latest-photos": "*",
-    "@sellis/online-friends": "*"
+    "@sellis/app-root": "^1.0.1",
+    "@sellis/hooks": "^1.0.1",
+    "@sellis/latest-conversations": "^1.0.1",
+    "@sellis/latest-photos": "^1.0.1",
+    "@sellis/online-friends": "^1.0.1"
   }
 }
