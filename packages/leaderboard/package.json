@@ -1,10 +1,10 @@
 {
-  "name": "@sellis/navbar",
-  "version": "1.0.1",
+  "name": "@sellis/leaderboard",
+  "version": "1.0.0",
   "author": "Scott Ellis",
-  "description": "Navigation bar",
-  "main": "dist/navbar.es.js",
-  "module": "dist/navbar.es.js",
+  "description": "Leaderboard widget",
+  "main": "dist/leaderboard.es.js",
+  "module": "dist/leaderboard.es.js",
   "scripts": {
     "build": "vite build",
     "build:watch": "vite build --watch",
@@ -13,9 +13,10 @@
     "lint": "eslint ./src",
     "tsc": "tsc"
   },
-  "types": "./src/navbar.d.ts",
+  "types": "./src/leaderboard.d.ts",
   "dependencies": {
     "@sellis/app-root": "*",
+    "@sellis/hooks": "*",
     "@sellis/application-state": "*"
   }
 }

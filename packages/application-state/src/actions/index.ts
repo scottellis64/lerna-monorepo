@@ -1,4 +1,3 @@
-export * from './EmailActions';
 export * from './FeedActions';
 export * from './FriendsActions';
 export * from './LatestConversationsActions';

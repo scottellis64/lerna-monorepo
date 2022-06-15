@@ -35,6 +35,7 @@ const UserBox = styled(Box)(({theme}) => ({
 
 export const Navbar = () => {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
+
   const menuOpen = Boolean(anchorEl);
 
   const handleClick = (event: MouseEvent<HTMLElement>) => {
@@ -76,7 +77,7 @@ export const Navbar = () => {
           <InputBase placeholder='search...' />
         </Search>
         <Icons>
-          <Badge badgeContent={4} color="error"><Mail /></Badge>
+          <Badge badgeContent={3} color="error"><Mail /></Badge>
           <Badge badgeContent={4} color="error"><Notifications /></Badge>
           {avatar}
         </Icons>
