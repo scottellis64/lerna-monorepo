@@ -1,6 +1,6 @@
 {
   "name": "@sellis/latest-photos",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Scott Ellis",
   "description": "Latest photos widget",
   "main": "dist/latest-photos.es.js",

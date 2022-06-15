@@ -1,6 +1,6 @@
 {
   "name": "@sellis/app-root",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Scott Ellis",
   "description": "Base application root widget that incorporates routes and theme",
   "main": "dist/app-root.es.js",
@@ -15,6 +15,6 @@
   },
   "types": "./src/app-root.d.ts",
   "dependencies": {
-    "@sellis/application-state": "^1.0.1"
+    "@sellis/application-state": "^1.0.2"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@sellis/responsive-app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Scott Ellis",
   "description": "Top level single page application react app widget",
   "main": "dist/responsive-app.es.js",
@@ -15,12 +15,12 @@
   },
   "types": "./src/responsive-app.d.ts",
   "dependencies": {
-    "@sellis/app-root": "^1.0.1",
-    "@sellis/create-post": "^1.0.1",
-    "@sellis/feed": "^1.0.1",
-    "@sellis/navbar": "^1.0.1",
-    "@sellis/rightbar": "^1.0.1",
-    "@sellis/routes": "^1.0.1",
-    "@sellis/sidebar": "^1.0.1"
+    "@sellis/app-root": "^1.0.2",
+    "@sellis/create-post": "^1.0.2",
+    "@sellis/feed": "^1.0.2",
+    "@sellis/navbar": "^1.0.2",
+    "@sellis/rightbar": "^1.0.2",
+    "@sellis/routes": "^1.0.2",
+    "@sellis/sidebar": "^1.0.2"
   }
 }
