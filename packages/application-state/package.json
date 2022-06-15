@@ -13,5 +13,8 @@
     "lint": "eslint ./src",
     "tsc": "tsc"
   },
-  "types": "./src/application-state.d.ts"
+  "types": "./src/application-state.d.ts",
+  "dependencies": {
+    "axios-mock-adapter": "^1.21.1"
+  }
 }

@@ -1,19 +1,20 @@
 import type { Story } from '@storybook/react';
 
 import { AppRoot } from '@sellis/app-root';
-import { Navbar } from './Navbar';
+
+import { Leaderboard } from './Leaderboard';
 
 export default {
-  title: 'Navbar'
+  title: 'Leaderboard'
 } as any;
 
 const Template: Story<any> = () => (
   <AppRoot>
-    <Navbar />
+    <Leaderboard />
   </AppRoot>
 );
 
-export const NavbarStory = Template.bind({});
+export const LeaderboardStory = Template.bind({});
 
-NavbarStory.args = {
+LeaderboardStory.args = {
 };

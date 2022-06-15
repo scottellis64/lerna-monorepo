@@ -1,10 +1,11 @@
 import { ReactNode } from 'react';
 
-import { AccountBox, Groups, Home, Pages, Person, Settings, Storefront } from '@mui/icons-material';
+import { AccountBox, Groups, Home, Pages, Paid, Person, Settings, Storefront } from '@mui/icons-material';
 
 import { Route } from '../types/Route';
 import { Feed } from '@sellis/feed';
 import { ComingSoon } from '@sellis/coming-soon';
+import { Leaderboard } from '@sellis/leaderboard';
 
 const createComponent = (name: string, icon: ReactNode): ReactNode => {
   return <ComingSoon name={name} icon={icon}/>
@@ -18,6 +19,15 @@ export const routes: Array<Route> = [{
     path: '/',
     isEnabled: true,
     icon: <Home/>,
+    appendDivider: true
+  }, {
+    key: 'router-bids',
+    title: 'Leaderboard',
+    description: 'Bids Leaderboard',
+    component: <Leaderboard />,
+    path: '/leaderboard',
+    isEnabled: true,
+    icon: <Paid/>,
     appendDivider: true
   }, {
     key: 'router-pages',
