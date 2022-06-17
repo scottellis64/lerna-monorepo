@@ -22,5 +22,6 @@
     "@sellis/rightbar": "^1.0.2",
     "@sellis/routes": "^1.0.2",
     "@sellis/sidebar": "^1.0.2"
-  }
+  },
+  "gitHead": "f11054489e87e64bf3ae110a90d685523c4fea90"
 }

@@ -18,5 +18,6 @@
     "@sellis/coming-soon": "^1.0.2",
     "@sellis/feed": "^1.0.2",
     "@sellis/leaderboard": "^1.0.1"
-  }
+  },
+  "gitHead": "f11054489e87e64bf3ae110a90d685523c4fea90"
 }

@@ -16,5 +16,6 @@
   "types": "./src/application-state.d.ts",
   "dependencies": {
     "axios-mock-adapter": "^1.21.1"
-  }
+  },
+  "gitHead": "f11054489e87e64bf3ae110a90d685523c4fea90"
 }

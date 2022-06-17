@@ -6,6 +6,6 @@
 			"ignoreChanges": ["*.md", ".test.tsx", ".stories.tsx"]
 		}
 	},
-	"packages": ["packages/*"],
+	"packages": ["packages/*", "packages/*/src/example/*"],
 	"version": "independent"
 }

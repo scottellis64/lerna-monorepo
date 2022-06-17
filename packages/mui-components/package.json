@@ -16,5 +16,6 @@
   "types": "./src/mui-components.d.ts",
   "dependencies": {
     "@sellis/app-root": "^1.0.2"
-  }
+  },
+  "gitHead": "f11054489e87e64bf3ae110a90d685523c4fea90"
 }
