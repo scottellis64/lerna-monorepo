@@ -1,6 +1,6 @@
 {
   "name": "@sellis/latest-conversations",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Scott Ellis",
   "description": "Widget to display the latest conversations with friends",
   "main": "dist/latest-conversations.es.js",
@@ -15,7 +15,8 @@
   },
   "types": "./src/latest-conversations.d.ts",
   "dependencies": {
-    "@sellis/app-root": "^1.0.1",
-    "@sellis/application-state": "^1.0.1"
-  }
+    "@sellis/app-root": "^1.0.2",
+    "@sellis/application-state": "^1.0.2"
+  },
+  "gitHead": "f11054489e87e64bf3ae110a90d685523c4fea90"
 }

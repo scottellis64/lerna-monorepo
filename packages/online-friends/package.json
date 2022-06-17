@@ -1,6 +1,6 @@
 {
   "name": "@sellis/online-friends",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Scott Ellis",
   "description": "Widget to display online friends",
   "main": "dist/online-friends.es.js",
@@ -15,9 +15,10 @@
   },
   "types": "./src/online-friends.d.ts",
   "devDependencies": {
-    "@sellis/app-root": "^1.0.1"
+    "@sellis/app-root": "^1.0.2"
   },
   "dependencies": {
-    "@sellis/application-state": "^1.0.1"
-  }
+    "@sellis/application-state": "^1.0.2"
+  },
+  "gitHead": "f11054489e87e64bf3ae110a90d685523c4fea90"
 }

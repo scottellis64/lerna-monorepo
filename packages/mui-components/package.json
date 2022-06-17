@@ -1,6 +1,6 @@
 {
   "name": "@sellis/mui-components",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Scott Ellis",
   "description": "Test component demonstrating component theming",
   "main": "dist/mui-components.es.js",
@@ -15,6 +15,7 @@
   },
   "types": "./src/mui-components.d.ts",
   "dependencies": {
-    "@sellis/app-root": "^1.0.1"
-  }
+    "@sellis/app-root": "^1.0.2"
+  },
+  "gitHead": "f11054489e87e64bf3ae110a90d685523c4fea90"
 }
