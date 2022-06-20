@@ -1,5 +1,6 @@
 import { PayloadAction, createSlice } from '@reduxjs/toolkit';
-import { mockAxios } from '../mock-api';
+
+import { http } from '@sellis/app-api';
 
 import { EmailType } from '../types';
 import { AppThunk } from '../store';
@@ -10,8 +11,8 @@ export interface EmailError {
 }
 
 export interface EmailsResponse {
-  data: EmailType[],
-  error: EmailError
+  emails: EmailType[],
+  error?: EmailError
 }
 
 export interface EmailState {
@@ -22,8 +23,7 @@ export interface EmailState {
 
 export const initialEmailsState: EmailState = {
   isLoading: false,
-  emails: [],
-  error: {message: 'An Error Occurred'}
+  emails: []
 }
 
 const emailsSlice = createSlice({
@@ -48,18 +48,10 @@ export const { setEmailsLoading, setEmails, setGetEmailsFailed } = emailsSlice.a
 
 const getEmails = async (): Promise<EmailState> => {
   try {
-    const { data } = await mockAxios.get<EmailsResponse>(
-      '/emails',
-      {
-        headers: {
-          Accept: 'application/json',
-        },
-      },
-    );
-
+    const { data } = await http.get<EmailsResponse>('/emails');
     return {
       isLoading: false,
-      emails: data.data
+      emails: data.emails
     };
   } catch (error) {
     console.error('unexpected error: ', error);

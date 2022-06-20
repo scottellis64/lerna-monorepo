@@ -17,7 +17,9 @@
   "dependencies": {
     "@sellis/app-root": "^1.0.2",
     "@sellis/create-post": "^1.0.2",
+    "@sellis/email": "*",
     "@sellis/feed": "^1.0.2",
+    "@sellis/leaderboard": "*",
     "@sellis/navbar": "^1.0.2",
     "@sellis/rightbar": "^1.0.2",
     "@sellis/routes": "^1.0.2",
