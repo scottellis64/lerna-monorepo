@@ -1,7 +1,9 @@
 import { MouseEvent, useState } from 'react';
 
-import { Mail, Notifications, Pets } from '@mui/icons-material';
+import { Notifications, Pets } from '@mui/icons-material';
 import { AppBar, Avatar, Badge, Box, InputBase, Menu, MenuItem, Toolbar, Typography, styled } from '@mui/material';
+
+import { Email } from '@sellis/email';
 
 const StyledToolbar = styled(Toolbar)({
   display: 'flex',
@@ -77,7 +79,7 @@ export const Navbar = () => {
           <InputBase placeholder='search...' />
         </Search>
         <Icons>
-          <Badge badgeContent={3} color="error"><Mail /></Badge>
+          <Email />
           <Badge badgeContent={4} color="error"><Notifications /></Badge>
           {avatar}
         </Icons>

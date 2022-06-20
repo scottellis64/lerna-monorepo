@@ -5,6 +5,7 @@ module.exports = {
     '@storybook/addon-links',
     'storybook-addon-designs'
   ],
+  staticDirs: ['./public'],
   framework: '@storybook/react',
   core: {
     builder: 'storybook-builder-vite'

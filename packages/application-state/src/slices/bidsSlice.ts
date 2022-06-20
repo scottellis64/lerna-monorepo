@@ -1,6 +1,6 @@
 import { PayloadAction, createSlice } from '@reduxjs/toolkit';
 
-import { mockAxios } from '../mock-api';
+import { http } from '@sellis/app-api';
 
 import { BidType } from '../types';
 import { AppThunk } from '../store';
@@ -12,7 +12,7 @@ export interface BidError {
 
 export interface BidsResponse {
   data: BidType[],
-  error: BidError
+  error?: BidError
 }
 
 export interface BidState {
@@ -48,14 +48,7 @@ export const { setBidsLoading, setBids, setGetBidsFailed } = bidsSlice.actions;
 
 const getBids = async (): Promise<BidState> => {
   try {
-    const { data } = await mockAxios.get<BidsResponse>(
-      '/bids',
-      {
-        headers: {
-          Accept: 'application/json',
-        },
-      },
-    );
+    const { data } = await http.get<BidsResponse>('/bids');
 
     return {
       isLoading: false,

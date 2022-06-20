@@ -1,7 +1,6 @@
-import { MockEndpoint } from '@sellis/application-state';
+import { BidType } from '@sellis/application-state';
 
-export const bidData: any = {
-  data: [
+export const bids: BidType[] = [
     {
       "address": "0x12e08b091a8b6419502449bbb369709c1e4a60e0",
       "value": 13.6457349706614
@@ -394,11 +393,4 @@ export const bidData: any = {
       "address": "0xafe900f6771cb5522d8c41cf51c0a0d637b71d5e",
       "value": 5.41500916118826
     }
-  ]
-}
-
-export const bidEndpoints: MockEndpoint[] = [{
-  type: 'get',
-  url: '/bids',
-  response: bidData
-}];
+  ];

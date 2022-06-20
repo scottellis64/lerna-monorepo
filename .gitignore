@@ -10,9 +10,8 @@ lerna-debug.log
 .DS_STORE
 .idea
 
-package/*/example/.yalc
-package/*/example/yalc.lock
 
+yalc.lock
 .yalc
 .npmrc
 .env

@@ -1,24 +1,25 @@
 import type { Story } from '@storybook/react';
 
+import { AppRoot } from '@sellis/app-root';
 import { rest } from 'msw';
 
-import { Navbar } from './Navbar';
-import { AppRoot } from '@sellis/app-root';
-import { emailsHandler } from '@sellis/email';
+import { Email } from './Email';
+
+import { emailsHandler } from './mocks';
 
 export default {
-  title: 'Navbar'
+  title: 'Email'
 } as any;
 
 const Template: Story<any> = () => (
   <AppRoot>
-    <Navbar />
+    <Email />
   </AppRoot>
 );
 
-export const NavbarStory = Template.bind({});
+export const EmailStory = Template.bind({});
 
-NavbarStory.parameters = {
+EmailStory.parameters = {
   msw: {
     handlers: {
       emails: [rest.get('/emails', emailsHandler)]
@@ -26,5 +27,6 @@ NavbarStory.parameters = {
   }
 }
 
-NavbarStory.args = {
+EmailStory.args = {
+  name: 'Email'
 };
